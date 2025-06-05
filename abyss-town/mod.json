@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.15",
+	"version" : "1.16",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.16"   : [ "Dwelling mask fixes" ],
 		"1.15"   : [ "Minor tweak" ],
 		"1.14"   : [ "Fixed missing commas" ],
 		"1.13"   : [ "Added ukrainian translation" ],
