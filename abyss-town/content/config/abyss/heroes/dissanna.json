@@ -1,39 +1,44 @@
 {
-	"dissanna" : 
-	{
+	"dissanna" : {
 		"class" : "abyssalShaman",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Dissanna",
 			"biography" : "Dissanna had a simple upbringing but a Wizard noticed her knack for controlling flames, and taught her the ability to make mines with that power. Today, there are few who wishes to confront her directly on the battlefield.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Cure with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Cure",
 				"name" : "Cure"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Dissanna/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Dissanna/spec-large.bmp",
 			"large" : "abyss/heroes/Dissanna/portrait-large.bmp",
 			"small" : "abyss/heroes/Dissanna/portrait-small.bmp"
-        	},
-		"spellbook" :
-		[
+		},
+		"spellbook" : [
 			"cure"
 		],
 
-       		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -52,6 +57,6 @@
 					"val" : 3
 				}
 			}
-		}		
+		}
 	}
 }

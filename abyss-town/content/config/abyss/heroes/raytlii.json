@@ -1,43 +1,51 @@
 {
-	"raytilii" : 
-	{
+	"raytilii" : {
 		"class" : "ichthyander",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Raytilii",
 			"biography" : "Raytilii found the jellyfish of the depths fascinating to no end. He would have them shoot at longer and longer distances every day just to see what the limit was. He also put them under many other tests as their ranged attacks would be most useful in a military campaign. One day, he did have one such campaign, and the results proved that these creatures were more than useful for the coming war.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Aurelia or Storm Aurelias by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Aurelia",
 				"name" : "Aurelia"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Raytlii/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Raytlii/spec-large.bmp",
 			"large" : "abyss/heroes/Raytlii/portrait-large.bmp",
 			"small" : "abyss/heroes/Raytlii/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
 			{
 				"creature" : "abyssDeepwaterJellyfish",
 				"max" : 2,
 				"min" : 1
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "resistance", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "abyssDeepwaterJellyfish"
-		}			
+		}
 	}
 }

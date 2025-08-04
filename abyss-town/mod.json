@@ -33,6 +33,7 @@
 		"0.90"   : [ "Update to vcmi-1.2"  ],
 		"0.80"   : [ "Various fixes"  ],
 		"0.70"   : [ "Initial release"  ]
+
 	},
 	"compatibility" : {
 		"min" : "1.6.0"
@@ -80,14 +81,13 @@
 		]
 	},
 	"ukrainian" : {
-		"name" :"Безодня",
+		"name" : "Безодня",
 		"description" : "Нове місто Безодня, створене за мотивами міфології підводного світу",
 		"translations" : [
 			"translation/abyss/ukrainian.json"
 		]
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/abyss/creatures/tbirdvulgaris.json",
 		"config/abyss/creatures/tbirdelectric.json",
 		"config/abyss/creatures/sandcrab.json",
@@ -115,15 +115,15 @@
 		"config/abyss/creatures/seaweedsup.json",
 		"config/abyss/creatures/Harpoon.json"
 	],
-    "artifacts" : [              
-        "config/abyss/artifacts/Harpoon.json"        
-    ],
-	
+	"artifacts" : [
+		"config/abyss/artifacts/Harpoon.json"
+	],
+
 	"heroClasses" : [
 		"config/abyss/classes/abyssalShaman.json",
 		"config/abyss/classes/ichthyander.json"
 	],
-	
+
 	"spells" : [
 		"config/abyss/spells/moat.json",
 		"config/abyss/spells/childOfTheLight.json"
@@ -133,25 +133,25 @@
 		"config/abyss/heroes/arkana.json",
 		"config/abyss/heroes/asler.json",
 		"config/abyss/heroes/karnti.json",
-        "config/abyss/heroes/sirranna.json",
-        "config/abyss/heroes/pears.json",
-        "config/abyss/heroes/season.json",
-        "config/abyss/heroes/wel.json",
-        "config/abyss/heroes/abiss.json",
-        "config/abyss/heroes/dissanna.json",
-        "config/abyss/heroes/gril.json",
-        "config/abyss/heroes/kasta.json",
-        "config/abyss/heroes/kingsax.json",
-        "config/abyss/heroes/kraken teamster.json",
-        "config/abyss/heroes/perha.json",
-        "config/abyss/heroes/raytlii.json",
-        "config/abyss/heroes/trila.json",
-        "config/abyss/heroes/verna.json",
-        "config/abyss/heroes/werser.json"
+		"config/abyss/heroes/sirranna.json",
+		"config/abyss/heroes/pears.json",
+		"config/abyss/heroes/season.json",
+		"config/abyss/heroes/wel.json",
+		"config/abyss/heroes/abiss.json",
+		"config/abyss/heroes/dissanna.json",
+		"config/abyss/heroes/gril.json",
+		"config/abyss/heroes/kasta.json",
+		"config/abyss/heroes/kingsax.json",
+		"config/abyss/heroes/kraken teamster.json",
+		"config/abyss/heroes/perha.json",
+		"config/abyss/heroes/raytlii.json",
+		"config/abyss/heroes/trila.json",
+		"config/abyss/heroes/verna.json",
+		"config/abyss/heroes/werser.json"
 	],
-	
-	"objects" : [ 
-	"config/abyss/dwellings.json",
-	"config/abyss/banks/waterTemple.json" 
+
+	"objects" : [
+		"config/abyss/dwellings.json",
+		"config/abyss/banks/waterTemple.json"
 	]
 }

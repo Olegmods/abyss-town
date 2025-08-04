@@ -3,7 +3,11 @@
 		"types" : {
 			"spawningPool" : {
 				"name" : "Spawning Pool",
-				"creatures" : [[ "tbirdvulgaris" ]],
+				"creatures" : [
+					[
+						"tbirdvulgaris"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw1.def",
@@ -13,7 +17,11 @@
 			},
 			"crimsonPool" : {
 				"name" : "Crimson Pool",
-				"creatures" : [[ "tbirdbloody" ]],
+				"creatures" : [
+					[
+						"tbirdbloody"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw12.def",
@@ -23,7 +31,11 @@
 			},
 			"waterdeepPool" : {
 				"name" : "Waterdeep Pool",
-				"creatures" : [[ "tbirdglowing" ]],
+				"creatures" : [
+					[
+						"tbirdglowing"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw11.def",
@@ -33,7 +45,11 @@
 			},
 			"shellShelter" : {
 				"name" : "Shell Shelter",
-				"creatures" : [[ "abyssSandCrab" ]],
+				"creatures" : [
+					[
+						"abyssSandCrab"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw2.def",
@@ -43,9 +59,13 @@
 			},
 			"reefTunnel" : {
 				"name" : "Reef Tunnel",
-				"creatures" : [[ "abyssSeahorse" ]],
+				"creatures" : [
+					[
+						"abyssSeahorse"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "abyss/map/abyssdw3.def",
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
@@ -53,9 +73,13 @@
 			},
 			"reef" : {
 				"name" : "Reef",
-				"creatures" : [[ "seaweeds" ]],
+				"creatures" : [
+					[
+						"seaweeds"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "abyss/map/abyssdw10.def",
 						"mask" : [ "VVV", "BAB" ]
 					}
@@ -63,7 +87,11 @@
 			},
 			"hotWaterIncubator" : {
 				"name" : "Hot Water Incubator",
-				"creatures" : [[ "abyssDeepwaterJellyfish" ]],
+				"creatures" : [
+					[
+						"abyssDeepwaterJellyfish"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw4.def",
@@ -73,7 +101,11 @@
 			},
 			"shelter" : {
 				"name" : "Shelter",
-				"creatures" : [[ "abyssLobster" ]],
+				"creatures" : [
+					[
+						"abyssLobster"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw8.def",
@@ -83,7 +115,11 @@
 			},
 			"coralCavern" : {
 				"name" : "Coral Cavern",
-				"creatures" : [[ "abyssGiantOctopus" ]],
+				"creatures" : [
+					[
+						"abyssGiantOctopus"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -94,7 +130,11 @@
 			},
 			"yuanTiPalace" : {
 				"name" : "Merrow Palace",
-				"creatures" : [[ "abyssYuanTiWarrior" ]],
+				"creatures" : [
+					[
+						"abyssYuanTiWarrior"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -105,7 +145,11 @@
 			},
 			"summoningWhirpool" : {
 				"name" : "Summoning Whirpool",
-				"creatures" : [[ "abyssSeaWorm" ]],
+				"creatures" : [
+					[
+						"abyssSeaWorm"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -116,7 +160,11 @@
 			},
 			"ancientWhirpool" : {
 				"name" : "Ancient Whirpool",
-				"creatures" : [[ "abKrakken" ]],
+				"creatures" : [
+					[
+						"abKrakken"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -125,20 +173,30 @@
 					}
 				}
 			}
-		}		
+		}
 	},
 	"core:creatureGeneratorSpecial" : {
-		"handler": "dwelling",
+		"handler" : "dwelling",
 		"types" : {
-				"birthingPit" : {
-				"name" : "Birthing Pit", 
-				"creatures" : [ 
-					[ "deepOne" ],
-					[ "darkOne" ]
+			"birthingPit" : {
+				"name" : "Birthing Pit",
+				"creatures" : [
+					[
+						"deepOne"
+					],
+					[
+						"darkOne"
+					]
 				],
 				"guards" : [
-					{ "amount" : 20, "type" : "darkOne" },
-					{ "amount" : 10, "type" : "deepOne" }
+					{
+						"amount" : 20,
+						"type" : "darkOne"
+					},
+					{
+						"amount" : 10,
+						"type" : "deepOne"
+					}
 				],
 				"templates" : {
 					"default" : {
@@ -146,7 +204,7 @@
 						"mask" : [  "VVV", "VVV", "VAB" ]
 					}
 				}
-			}	
+			}
 		}
 	}
 }

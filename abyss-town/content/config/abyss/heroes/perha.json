@@ -1,38 +1,43 @@
 {
-	"perha" : 
-	{
+	"perha" : {
 		"class" : "abyssalShaman",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Perha",
 			"biography" : "Long ago, Perha found a mysterious diadem, whispering in her ears, providing her powers to twist the minds of others into madness.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Bless Cure with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Bless",
 				"name" : "Bless"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Perha/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Perha/spec-large.bmp",
 			"large" : "abyss/heroes/Perha/portrait-large.bmp",
 			"small" : "abyss/heroes/Perha/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"bless"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -51,7 +56,6 @@
 					"val" : 3
 				}
 			}
-		}		
+		}
 	}
 }
-

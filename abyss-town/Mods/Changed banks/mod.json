@@ -5,7 +5,9 @@
 	"contact" : "",
 	"version" : "1.0",
 	"modType" : "Mechanics",
-	"objects" : [ "config/abyss/changedBanks.json" ],
+	"objects" : [
+		"config/abyss/changedBanks.json"
+	],
 	"czech" : {
 		"name" : "Změněné jednotky",
 		"description" : "Submod nahrazuje některé jednotky ve vracích a opuštěných lodích jednotkami Propasti"
@@ -13,7 +15,7 @@
 	"polish" : {
 		"name" : "Zmienione Banki",
 		"description" : "Submod zastępuje niektóre stworzenia Otchłani w wrakach statków i opuszczonych statkach"
-   },
+	},
 	"ukrainian" : {
 		"name" : "Змінені банки",
 		"description" : "Підмод заміняє деяких істот у кораблетрощах та занедбаних кораблях"
