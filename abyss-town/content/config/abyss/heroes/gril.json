@@ -1,38 +1,43 @@
 {
-	"gril" : 
-	{
+	"gril" : {
 		"class" : "abyssalShaman",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Gril",
 			"biography" : "Gril was a gypsy with the strange power who was anathematized by other people. One stormy day she made the lighting fork on her behalf. Due to her state as a pariah, the kingdoms beneath sought quickly to hire her, as such power would be devastating in enemy hands.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Gril/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Gril/spec-large.bmp",
 			"large" : "abyss/heroes/Gril/portrait-large.bmp",
 			"small" : "abyss/heroes/Gril/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
-			"chainLightning"		
-                ],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"spellbook" : [
+			"chainLightning"
 		],
-		"skills" :
-		[
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "airMagic"
@@ -41,7 +46,7 @@
 				"level" : "basic",
 				"skill" : "wisdom"
 			}
-		],	
+		],
 		"specialty" : {
 			"bonuses" : {
 				"chainLightning" : {

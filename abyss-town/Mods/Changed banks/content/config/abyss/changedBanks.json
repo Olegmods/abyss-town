@@ -7,100 +7,220 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 0, "max" : 25 },
-						"guards": [
-							{ "amount": 12, "type": "tbirdvulgaris" },
-							{ "amount": 8, "type": "abyssSandCrab" },
-							{ "amount": 10, "type": "tbirdvulgaris" },
-							{ "amount": 8, "type": "abyssSandCrab" },
-							{ "amount": 12, "type": "tbirdvulgaris" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 25
+						},
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "tbirdvulgaris"
+							},
+							{
+								"amount" : 8,
+								"type" : "abyssSandCrab"
+							},
+							{
+								"amount" : 10,
+								"type" : "tbirdvulgaris"
+							},
+							{
+								"amount" : 8,
+								"type" : "abyssSandCrab"
+							},
+							{
+								"amount" : 12,
+								"type" : "tbirdvulgaris"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2000
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 25, "max" : 50 },
-						"guards": [
-							{ "amount": 10, "type": "abyssSandCrab" },
-							{ "amount": 12, "type": "tbirdvulgaris" },
-							{ "amount": 8, "type": "abyssAbyssalCrab" },
-							{ "amount": 10, "type": "tbirdelectric" },
-							{ "amount": 10, "type": "abyssSandCrab" }
+						"appearChance" : {
+							"min" : 25,
+							"max" : 50
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "abyssSandCrab"
+							},
+							{
+								"amount" : 12,
+								"type" : "tbirdvulgaris"
+							},
+							{
+								"amount" : 8,
+								"type" : "abyssAbyssalCrab"
+							},
+							{
+								"amount" : 10,
+								"type" : "tbirdelectric"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssSandCrab"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2000
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 50, "max" : 75 },
-						"guards": [
-							{ "amount": 12, "type": "abyssSandCrab" },
-							{ "amount": 15, "type": "tbirdelectric" },
-							{ "amount": 6, "type": "abyssSeahorse" },
-							{ "amount": 15, "type": "tbirdelectric" },
-							{ "amount": 12, "type": "abyssAbyssalCrab" }
+						"appearChance" : {
+							"min" : 50,
+							"max" : 75
+						},
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "abyssSandCrab"
+							},
+							{
+								"amount" : 15,
+								"type" : "tbirdelectric"
+							},
+							{
+								"amount" : 6,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 15,
+								"type" : "tbirdelectric"
+							},
+							{
+								"amount" : 12,
+								"type" : "abyssAbyssalCrab"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2500
 						},
-						"artifacts": [ { "class" : "TREASURE" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 75, "max" : 85 },
-						"guards": [
-							{ "amount": 10, "type": "abyssSeahorse" },
-							{ "amount": 15, "type": "abyssAbyssalCrab" },
-							{ "amount": 10, "type": "darkOne" },
-							{ "amount": 15, "type": "abyssAbyssalCrab" },
-							{ "amount": 10, "type": "abyssHyppocamph" }
+						"appearChance" : {
+							"min" : 75,
+							"max" : 85
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 15,
+								"type" : "abyssAbyssalCrab"
+							},
+							{
+								"amount" : 10,
+								"type" : "darkOne"
+							},
+							{
+								"amount" : 15,
+								"type" : "abyssAbyssalCrab"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssHyppocamph"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 3000
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 85, "max" : 95 },
-						"guards": [
-							{ "amount": 10, "type": "abyssSeahorse" },
-							{ "amount": 10, "type": "darkOne" },
-							{ "amount": 10, "type": "abyssHyppocamph" },
-							{ "amount": 10, "type": "darkOne" },
-							{ "amount": 10, "type": "abyssSeahorse" }
+						"appearChance" : {
+							"min" : 85,
+							"max" : 95
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 10,
+								"type" : "darkOne"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssHyppocamph"
+							},
+							{
+								"amount" : 10,
+								"type" : "darkOne"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssSeahorse"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 4000
 						},
-						"creatures": [ { "amount": 7, "type": "deepOne" } ]
+						"creatures" : [
+							{
+								"amount" : 7,
+								"type" : "deepOne"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 95, "max" : 100 },
-						"guards": [
-							{ "amount": 10, "type": "darkOne" },
-							{ "amount": 10, "type": "abyssHyppocamph" },
-							{ "amount": 10, "type": "deepOne" },
-							{ "amount": 10, "type": "abyssHyppocamph" },
-							{ "amount": 10, "type": "darkOne" }
+						"appearChance" : {
+							"min" : 95,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "darkOne"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssHyppocamph"
+							},
+							{
+								"amount" : 10,
+								"type" : "deepOne"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssHyppocamph"
+							},
+							{
+								"amount" : 10,
+								"type" : "darkOne"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 4000
 						},
-						"creatures": [ { "amount": 7, "type": "goldenHyppocamph" } ]
+						"creatures" : [
+							{
+								"amount" : 7,
+								"type" : "goldenHyppocamph"
+							}
+						]
 					}
 				]
 			}
@@ -115,91 +235,207 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 0, "max" : 25 },
-						"guards": [
-							{ "amount": 7, "type": "darkOne" },
-							{ "amount": 5, "type": "abyssDeepwaterJellyfish" },
-							{ "amount": 7, "type": "abyssSeahorse" },
-							{ "amount": 5, "type": "abyssDeepwaterJellyfish" },
-							{ "amount": 7, "type": "darkOne" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 25
+						},
+						"guards" : [
+							{
+								"amount" : 7,
+								"type" : "darkOne"
+							},
+							{
+								"amount" : 5,
+								"type" : "abyssDeepwaterJellyfish"
+							},
+							{
+								"amount" : 7,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 5,
+								"type" : "abyssDeepwaterJellyfish"
+							},
+							{
+								"amount" : 7,
+								"type" : "darkOne"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2500
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 25, "max" : 50 },
-						"guards": [
-							{ "amount": 10, "type": "deepOne" },
-							{ "amount": 7, "type": "abyssDeepwaterJellyfish" },
-							{ "amount": 10, "type": "abyssSeahorse" },
-							{ "amount": 7, "type": "abyssDeepwaterJellyfish" },
-							{ "amount": 10, "type": "deepOne" }
+						"appearChance" : {
+							"min" : 25,
+							"max" : 50
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "deepOne"
+							},
+							{
+								"amount" : 7,
+								"type" : "abyssDeepwaterJellyfish"
+							},
+							{
+								"amount" : 10,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 7,
+								"type" : "abyssDeepwaterJellyfish"
+							},
+							{
+								"amount" : 10,
+								"type" : "deepOne"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2500
 						},
-						"artifacts": [ { "class" : "TREASURE" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 50, "max" : 75 },
-						"guards": [
-							{ "amount": 13, "type": "abyssSeahorse" },
-							{ "amount": 7, "type": "abyssAbyssalJellyfish" },
-							{ "amount": 13, "type": "deepOne" },
-							{ "amount": 7, "type": "abyssAbyssalJellyfish" },
-							{ "amount": 13, "type": "abyssHyppocamph" }
+						"appearChance" : {
+							"min" : 50,
+							"max" : 75
+						},
+						"guards" : [
+							{
+								"amount" : 13,
+								"type" : "abyssSeahorse"
+							},
+							{
+								"amount" : 7,
+								"type" : "abyssAbyssalJellyfish"
+							},
+							{
+								"amount" : 13,
+								"type" : "deepOne"
+							},
+							{
+								"amount" : 7,
+								"type" : "abyssAbyssalJellyfish"
+							},
+							{
+								"amount" : 13,
+								"type" : "abyssHyppocamph"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 3500
 						},
-						"artifacts": [ { "class" : "TREASURE" } ],
-						"spells" : [ { "level" : 2 } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 2
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 75, "max" : 90 },
-						"guards": [
-							{ "amount": 13, "type": "abyssHyppocamph" },
-							{ "amount": 12, "type": "iceElemental" },
-							{ "amount": 10, "type": "goldenHyppocamph" },
-							{ "amount": 12, "type": "iceElemental" },
-							{ "amount": 13, "type": "abyssHyppocamph" }
+						"appearChance" : {
+							"min" : 75,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 13,
+								"type" : "abyssHyppocamph"
+							},
+							{
+								"amount" : 12,
+								"type" : "iceElemental"
+							},
+							{
+								"amount" : 10,
+								"type" : "goldenHyppocamph"
+							},
+							{
+								"amount" : 12,
+								"type" : "iceElemental"
+							},
+							{
+								"amount" : 13,
+								"type" : "abyssHyppocamph"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 4500
 						},
-						"artifacts": [ { "class" : "MINOR" } ],
-						"spells" : [ { "level" : 2 } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 2
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 16, "type": "goldenHyppocamph" },
-							{ "amount": 12, "type": "iceElemental" },
-							{ "amount": 8, "type": "abyssGiantOctopus" },
-							{ "amount": 12, "type": "iceElemental" },
-							{ "amount": 16, "type": "goldenHyppocamph" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 16,
+								"type" : "goldenHyppocamph"
+							},
+							{
+								"amount" : 12,
+								"type" : "iceElemental"
+							},
+							{
+								"amount" : 8,
+								"type" : "abyssGiantOctopus"
+							},
+							{
+								"amount" : 12,
+								"type" : "iceElemental"
+							},
+							{
+								"amount" : 16,
+								"type" : "goldenHyppocamph"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 6000
 						},
-						"artifacts": [ { "class" : "MINOR" }, { "class" : "TREASURE" } ],
-						"spells" : [ { "level" : 3 } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "TREASURE"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 3
+							}
+						]
 					}
 				]
 			}
 		}
-	}	
+	}
 }

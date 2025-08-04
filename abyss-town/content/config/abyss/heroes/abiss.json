@@ -1,39 +1,51 @@
 {
-	"abiss" : 
-	{
+	"abiss" : {
 		"class" : "ichthyander",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Abiss",
 			"biography" : "Abiss wandered for many years with her Crabs through the isles. She learned how to get the best use out of their claws through countless battles.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Sand Crabs or Abyssal Crabs by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Crabs",
 				"name" : "Crabs"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Abiss/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Abiss/spec-large.bmp",
 			"large" : "abyss/heroes/Abiss/portrait-large.bmp",
 			"small" : "abyss/heroes/Abiss/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 }
+		"army" : [
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "scouting", "level": "basic" },
-			{ "skill" : "leadership", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "abyssSandCrab"
-		}		
+		}
 	}
 }

@@ -1,28 +1,23 @@
 {
-	"werser" : 
-	{
+	"werser" : {
 		"class" : "ichthyander",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Werser",
 			"biography" : "Werser had excellent hearing, so great infact that he could hear the frequency on which seahorses speak. Werser thus developed a talent for speaking with the beasts.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Seahorses or Magic Seahorse by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Seahorses",
 				"name" : "Seahorses"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Werser/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Werser/spec-large.bmp",
 			"large" : "abyss/heroes/Werser/portrait-large.bmp",
 			"small" : "abyss/heroes/Werser/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "abyssSeahorse",
 				"min" : 3,
@@ -39,13 +34,18 @@
 				"max" : 3
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "abyssSeahorse"
-		}				
+		}
 	}
 }

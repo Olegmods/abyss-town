@@ -1,41 +1,52 @@
 {
-	"sirranna" :
-	{
+	"sirranna" : {
 		"class" : "abyssalShaman",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sirranna",
 			"biography" : "Sirrana is a bit of a pirate, talented in finding gems from the vessels she sinks. In her eyes, the proper term would be bandit, if you would settle with insults. She asks those who intrude on her waters to pay both in valuables and with their lives.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 1 gem per day",
 				"tooltip" : "+1 Gem each day",
 				"name" : "+1 Gem"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Sirranna/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Sirranna/spec-large.bmp",
 			"large" : "abyss/heroes/Sirranna/portrait-large.bmp",
 			"small" : "abyss/heroes/Sirranna/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-               "skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "intelligence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -48,4 +59,3 @@
 		}
 	}
 }
-
