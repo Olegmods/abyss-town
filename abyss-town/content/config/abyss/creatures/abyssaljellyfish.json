@@ -1,28 +1,23 @@
 {
-	"abyssDeepwaterJellyfish":
-	{
-		"name" :
-		{
+	"abyssDeepwaterJellyfish" : {
+		"name" : {
 			"plural" : "Aurelias",
 			"singular" : "Aurelia"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"abyssAbyssalJellyfish"
 		],
-		"faction" : "abyss",		
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 20
+		"faction" : "abyss",
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
 		},
 		"level" : 4,
 		"attack" : 9,
 		"defense" : 9,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 8
+		"damage" : {
+			"min" : 6,
+			"max" : 8
 		},
 		"growth" : 4,
 		"hitPoints" : 25,
@@ -30,28 +25,23 @@
 		"shots" : 18,
 		"fightValue" : 475,
 		"aiValue" : 485,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/DeepwaterJellyfish.def",
 			"map" : "abyss/map/creatures/AVWDeepwaterJellyfish.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/DeepwaterJellyfish.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/DeepwaterJellyfish.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "abyss/battle/creatures/projectile/SHOT198.def",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -60,101 +50,198 @@
 					"lowerY" : -14
 				},
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/spirattk.wav",
-			"defend": "abyss/spirdfnd.wav",
-			"killed": "abyss/spirkill.wav",
-			"move": "abyss/spirmove.wav",
-			"wince": "abyss/spirwnce.wav",
-			"shoot": "abyss/spirshot.wav"
-        	},
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"sound" : {
+			"attack" : "abyss/spirattk.wav",
+			"defend" : "abyss/spirdfnd.wav",
+			"killed" : "abyss/spirkill.wav",
+			"move" : "abyss/spirmove.wav",
+			"wince" : "abyss/spirwnce.wav",
+			"shoot" : "abyss/spirshot.wav"
+		},
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-                        }
+			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "water"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [ 0, 0, 0, 5, 5, 5, 10, 10, 10, 10]
+				"values" : [
+					0,
+					0,
+					0,
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					10
+				]
 			}
-		]	
+		]
 	}
 }

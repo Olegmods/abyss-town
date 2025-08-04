@@ -1,47 +1,38 @@
 {
-	"darkOne":
-	{
-		"name" :{
+	"darkOne" : {
+		"name" : {
 			"plural" : "Dark Ones",
-			"singular":"Dark One"
+			"singular" : "Dark One"
 		},
-		"advMapAmount" :
-		{
-
-			 "max" : 25,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
 		},
 		"doubleWide" : false,
-		"upgrades":
-		[
+		"upgrades" : [
 			"deepOne"
 		],
 
-		"hasDoubleWeek": true, 
+		"hasDoubleWeek" : true,
 		"faction" : "abyss",
 		"aiValue" : 274,
 		"attack" : 7,
-		"cost" :
-		{
-                       
+		"cost" : {
 			"gold" : 270
 		},
-		"damage" :
-		{
-			 "max" : 6,
-			 "min" : 3
+		"damage" : {
+			"max" : 6,
+			"min" : 3
 		},
 		"defense" : 8,
 		"fightValue" : 274,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/DarkOne.def",
 			"map" : "abyss/map/creatures/AVWDarkOne.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/DarkOne.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/DarkOne.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.3,
 				"attack" : 1,
 				"idle" : 10
@@ -51,64 +42,98 @@
 		"hitPoints" : 20,
 		"level" : 3,
 
-
-		"sound" :
-		{
-			"attack": "TROGATTK.wav",
-			"defend": "TROGDFND.wav",
-			"killed": "TROGKILL.wav",
-			"move": "TROGMOVE.wav",
-			"wince": "TROGWNCE.wav"
+		"sound" : {
+			"attack" : "TROGATTK.wav",
+			"defend" : "TROGDFND.wav",
+			"killed" : "TROGKILL.wav",
+			"move" : "TROGMOVE.wav",
+			"wince" : "TROGWNCE.wav"
 		},
 		"speed" : 5,
-		"abilities":
-		{
-			 "spellAfterAttack" :
-			{
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "poison",
-                "val" : 100,
-                "addInfo": [2,2]
+		"abilities" : {
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "poison",
+				"val" : 100,
+				"addInfo" : [
+					2,
+					2
+				]
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-
 	}
 }
-
-

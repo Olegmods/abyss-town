@@ -3,150 +3,260 @@
 		"types" : {
 			"spawningPool" : {
 				"name" : "Spawning Pool",
-				"creatures" : [[ "tbirdvulgaris" ]],
+				"creatures" : [
+					[
+						"tbirdvulgaris"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw1.def",
-						"mask" : [ "VBB", "VBB", "BAB" ]
+						"mask" : [
+							"VBB",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"crimsonPool" : {
 				"name" : "Crimson Pool",
-				"creatures" : [[ "tbirdbloody" ]],
+				"creatures" : [
+					[
+						"tbirdbloody"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw12.def",
-						"mask" : [ "VBB", "VBB", "BAB" ]
+						"mask" : [
+							"VBB",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"waterdeepPool" : {
 				"name" : "Waterdeep Pool",
-				"creatures" : [[ "tbirdglowing" ]],
+				"creatures" : [
+					[
+						"tbirdglowing"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw11.def",
-						"mask" : [ "VBB", "VBB", "BAB" ]
+						"mask" : [
+							"VBB",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"shellShelter" : {
 				"name" : "Shell Shelter",
-				"creatures" : [[ "abyssSandCrab" ]],
+				"creatures" : [
+					[
+						"abyssSandCrab"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw2.def",
-						"mask" : [ "BBB", "VBB", "BAB" ]
+						"mask" : [
+							"BBB",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"reefTunnel" : {
 				"name" : "Reef Tunnel",
-				"creatures" : [[ "abyssSeahorse" ]],
+				"creatures" : [
+					[
+						"abyssSeahorse"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "abyss/map/abyssdw3.def",
-						"mask" : [ "VBB", "BBB", "BBA" ]
+						"mask" : [
+							"VBB",
+							"BBB",
+							"BBA"
+						]
 					}
 				}
 			},
 			"reef" : {
 				"name" : "Reef",
-				"creatures" : [[ "seaweeds" ]],
+				"creatures" : [
+					[
+						"seaweeds"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "abyss/map/abyssdw10.def",
-						"mask" : [ "BBB", "BAB" ]
+						"mask" : [
+							"BBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"hotWaterIncubator" : {
 				"name" : "Hot Water Incubator",
-				"creatures" : [[ "abyssDeepwaterJellyfish" ]],
+				"creatures" : [
+					[
+						"abyssDeepwaterJellyfish"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw4.def",
-						"mask" : [ "VBB","BAB" ]
+						"mask" : [
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"shelter" : {
 				"name" : "Shelter",
-				"creatures" : [[ "abyssLobster" ]],
+				"creatures" : [
+					[
+						"abyssLobster"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw8.def",
-						"mask" : [ "BBB", "VBB", "BAB" ]
+						"mask" : [
+							"BBB",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"coralCavern" : {
 				"name" : "Coral Cavern",
-				"creatures" : [[ "abyssGiantOctopus" ]],
+				"creatures" : [
+					[
+						"abyssGiantOctopus"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw5.def",
-						"mask" : [ "BBB", "BBB", "BAB" ]
+						"mask" : [
+							"BBB",
+							"BBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"yuanTiPalace" : {
 				"name" : "Merrow Palace",
-				"creatures" : [[ "abyssYuanTiWarrior" ]],
+				"creatures" : [
+					[
+						"abyssYuanTiWarrior"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw6.def",
-						"mask" : [ "BBB", "BBB", "BAB" ]
+						"mask" : [
+							"BBB",
+							"BBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"summoningWhirpool" : {
 				"name" : "Summoning Whirpool",
-				"creatures" : [[ "abyssSeaWorm" ]],
+				"creatures" : [
+					[
+						"abyssSeaWorm"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw7.def",
-						"mask" : [ "VBB", "BBB", "BAB" ]
+						"mask" : [
+							"VBB",
+							"BBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"ancientWhirpool" : {
 				"name" : "Ancient Whirpool",
-				"creatures" : [[ "abKrakken" ]],
+				"creatures" : [
+					[
+						"abKrakken"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw9.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "BBBB", "BBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"BBBB",
+							"BBAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	},
 	"core:creatureGeneratorSpecial" : {
-		"handler": "dwelling",
+		"handler" : "dwelling",
 		"types" : {
-				"birthingPit" : {
-				"name" : "Birthing Pit", 
-				"creatures" : [ 
-					[ "deepOne" ],
-					[ "darkOne" ]
+			"birthingPit" : {
+				"name" : "Birthing Pit",
+				"creatures" : [
+					[
+						"deepOne"
+					],
+					[
+						"darkOne"
+					]
 				],
 				"guards" : [
-					{ "amount" : 20, "type" : "darkOne" },
-					{ "amount" : 10, "type" : "deepOne" }
+					{
+						"amount" : 20,
+						"type" : "darkOne"
+					},
+					{
+						"amount" : 10,
+						"type" : "deepOne"
+					}
 				],
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/birthingPit.def",
-						"mask" : [  "VVV", "VBV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAB"
+						]
 					}
 				}
-			}	
+			}
 		}
 	}
 }

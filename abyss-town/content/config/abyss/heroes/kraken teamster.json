@@ -1,43 +1,51 @@
 {
-	"kraken teamster" : 
-	{
+	"kraken teamster" : {
 		"class" : "ichthyander",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Kraas",
 			"biography" : "Kraas was born in solitude, and once he appeared before the king of the deep, self-nurtured and experienced, he was granted a position of power over his cephalopod relatives.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "Creature Bonus: Octopuses",
 				"description" : "Increases Speed of any Octopuses or Ferocious Octopuses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"name" : "Octopuses"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Kraken Teamster/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Kraken Teamster/spec-large.bmp",
 			"large" : "abyss/heroes/Kraken Teamster/portrait-large.bmp",
 			"small" : "abyss/heroes/Kraken Teamster/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 12 },
-			{ "creature" : "abyssSandCrab", "min" : 5, "max" : 6 },
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 12
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 5,
+				"max" : 6
+			},
 			{
 				"creature" : "abyssGiantOctopus",
 				"max" : 1,
 				"min" : 1
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "abyssGiantOctopus"
-		}			
+		}
 	}
 }

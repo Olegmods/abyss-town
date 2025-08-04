@@ -1,143 +1,220 @@
 {
-	"abyssYuanTiLeader":
-	{
-		"name" :
-		{
+	"abyssYuanTiLeader" : {
+		"name" : {
 			"plural" : "Yuan-Ti  Warriors",
 			"singular" : "Yuan-Ti Warrior"
 		},
 		"doubleWide" : true,
-		"faction" : "abyss",		
-		"advMapAmount" :
-		{
-			 "min" : 5,
-			 "max" : 10
+		"faction" : "abyss",
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
 		},
 		"level" : 6,
 		"attack" : 14,
 		"defense" : 19,
-		"damage" :
-		{
-			 "min" : 17,
-			 "max" : 22
+		"damage" : {
+			"min" : 17,
+			"max" : 22
 		},
 		"growth" : 2,
 		"hitPoints" : 90,
 		"speed" : 8,
 		"fightValue" : 1396,
 		"aiValue" : 1618,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/Yuan-TiLeader.def",
 			"map" : "abyss/map/creatures/AVWYuan-TiLeader.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/Yuan-TiLeader.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/Yuan-TiLeader.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/merrattk.wav",
-			"defend": "abyss/merrdfnd.wav",
-			"killed": "abyss/merrkill.wav",
-			"move": "abyss/merrmove.wav",
-			"wince": "abyss/merrwnce.wav"
-                 },
-		"abilities" :
-		{
-			"waterImmunity":
-			{
-				"type":"NEGATIVE_EFFECTS_IMMUNITY",
-                "subtype": "water",
+		"sound" : {
+			"attack" : "abyss/merrattk.wav",
+			"defend" : "abyss/merrdfnd.wav",
+			"killed" : "abyss/merrkill.wav",
+			"move" : "abyss/merrmove.wav",
+			"wince" : "abyss/merrwnce.wav"
+		},
+		"abilities" : {
+			"waterImmunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "water",
 				"description" : "{Negative water spells immunity}\nUnit is immune to all negative water spells",
-				"icon" : "abyss/icons/bonuses/e_spwater.png"					
+				"icon" : "abyss/icons/bonuses/e_spwater.png"
 			},
-			"enemyDefenceReduction":
-			{
-				"type": "ENEMY_DEFENCE_REDUCTION",
-				"val": 20
+			"enemyDefenceReduction" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 10, 20, 20, 30]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					20,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"subtype" : "damageTypeAll"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 10, 20, 30, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					50
+				]
 			}
 		]
 	}

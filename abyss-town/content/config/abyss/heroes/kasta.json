@@ -1,39 +1,43 @@
 {
-	"kasta" : 
-	{
-
+	"kasta" : {
 		"class" : "abyssalShaman",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Kasta",
 			"biography" : "Kasta's wealth borders on the abundant. She is also quite the philantropist, helping those in need with a few extra gold pieces.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "+350 Gold per day",
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Kasta/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Kasta/spec-large.bmp",
 			"large" : "abyss/heroes/Kasta/portrait-large.bmp",
 			"small" : "abyss/heroes/Kasta/portrait-small.bmp"
 		},
-                "spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -43,13 +47,13 @@
 				"skill" : "estates"
 			}
 		],
-		"specialty": {
-			"bonuses": {
+		"specialty" : {
+			"bonuses" : {
 				"gold" : {
-					"type": "GENERATE_RESOURCE",
-					"subtype": "gold",
-					"val": 350
-                }
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "gold",
+					"val" : 350
+				}
 			}
 		}
 	}

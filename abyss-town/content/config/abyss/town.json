@@ -2,85 +2,273 @@
 	"abyss" : {
 		"alignment" : "neutral",
 		"boat" : "boatFortress",
-		"creatureBackground" : { "120px" : "abyss/creature-bg-120px.bmp", "130px" : "abyss/creature-bg-130px.bmp" },
+		"creatureBackground" : {
+			"120px" : "abyss/creature-bg-120px.bmp",
+			"130px" : "abyss/creature-bg-130px.bmp"
+		},
 		"name" : "Abyss",
 		"nativeTerrain" : "swamp",
 		"puzzleMap" : {
 			"prefix" : "abyss/puzzle-map/",
-			"pieces" :
-			[
-				{ "x": 7, "y": 7, "index": 36 },
-				{ "x": 7, "y": 7, "index": 25 },
-				{ "x": 7, "y": 7, "index": 34 },
-				{ "x": 7, "y": 7, "index": 23 },
-				{ "x": 7, "y": 7, "index": 15 },
-				{ "x": 7, "y": 7, "index": 37 },
-				{ "x": 7, "y": 7, "index": 38 },
-				{ "x": 7, "y": 7, "index": 39 },
-				{ "x": 7, "y": 7, "index": 8 },
-				{ "x": 7, "y": 7, "index": 47 },
-				{ "x": 7, "y": 7, "index": 1 },
-				{ "x": 7, "y": 7, "index": 30 },
-				{ "x": 7, "y": 7, "index": 41 },
-				{ "x": 7, "y": 7, "index": 33 },
-				{ "x": 7, "y": 7, "index": 40 },
-				{ "x": 7, "y": 7, "index": 11 },
-				{ "x": 7, "y": 7, "index": 19 },
-				{ "x": 7, "y": 7, "index": 13 },
-				{ "x": 7, "y": 7, "index": 24 },
-				{ "x": 7, "y": 7, "index": 18 },
-				{ "x": 7, "y": 7, "index": 20 },
-				{ "x": 7, "y": 7, "index": 46 },
-				{ "x": 7, "y": 7, "index": 9 },
-				{ "x": 7, "y": 7, "index": 7 },
-				{ "x": 7, "y": 7, "index": 48 },
-				{ "x": 7, "y": 7, "index": 5 },
-				{ "x": 7, "y": 7, "index": 26 },
-				{ "x": 7, "y": 7, "index": 22 },
-				{ "x": 7, "y": 7, "index": 16 },
-				{ "x": 7, "y": 7, "index": 43 },
-				{ "x": 7, "y": 7, "index": 10 },
-				{ "x": 7, "y": 7, "index": 45 },
-				{ "x": 7, "y": 7, "index": 17 },
-				{ "x": 7, "y": 7, "index": 21 },
-				{ "x": 7, "y": 7, "index": 3 },
-				{ "x": 7, "y": 7, "index": 42 },
-				{ "x": 7, "y": 7, "index": 14 },
-				{ "x": 7, "y": 7, "index": 12 },
-				{ "x": 7, "y": 7, "index": 35 },
-				{ "x": 7, "y": 7, "index": 29 },
-				{ "x": 7, "y": 7, "index": 27 },
-				{ "x": 7, "y": 7, "index": 2 },
-				{ "x": 7, "y": 7, "index": 32 },
-				{ "x": 7, "y": 7, "index": 4 },
-				{ "x": 7, "y": 7, "index": 44 },
-				{ "x": 7, "y": 7, "index": 31 },
-				{ "x": 7, "y": 7, "index": 6 },
-				{ "x": 7, "y": 7, "index": 28 }
+			"pieces" : [
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 36
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 25
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 34
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 23
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 15
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 37
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 38
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 39
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 8
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 47
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 1
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 30
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 41
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 33
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 40
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 11
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 19
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 13
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 24
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 18
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 20
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 46
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 9
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 7
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 48
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 5
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 26
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 22
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 16
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 43
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 10
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 45
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 17
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 21
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 3
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 42
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 14
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 12
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 35
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 29
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 27
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 2
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 32
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 4
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 44
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 31
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 6
+				},
+				{
+					"x" : 7,
+					"y" : 7,
+					"index" : 28
+				}
 			]
 		},
 		"town" : {
-		    "defaultTavern" : 5,
+			"defaultTavern" : 5,
 			"buildings" : {
-				"mageGuild1" :
-				{
-					
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
-					
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -90,234 +278,241 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
-		 				"wood": 5,
-                                                "mercury": 6,
-                                                "ore": 5,
-                                                "sulfur": 6,
-                                                "crystal": 6,
-                                                "gems": 6,
-                                                "gold": 1000
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
 					}
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
-						"wood": 5,
-                                                "mercury": 8,
-                                                "ore": 5,
-                                                "sulfur": 8,
-                                                "crystal": 8,
-                                                "gems": 8,
-                                               "gold": 1000
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
-						"wood": 5,
-                                                "mercury": 10,
-                                                "ore": 5,
-                                                "sulfur": 10,
-                                                "crystal": 10,
-                                                "gems": 10,
-                                                "gold": 1000
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
 					}
-				},				
-				"tavern" :
-				{
+				},
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"marketplace"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
 					"name" : "Resource Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"requires" : [ "marketplace" ],
-					"produce": { "gems": 1 }
+					"requires" : [
+						"marketplace"
+					],
+					"produce" : {
+						"gems" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Harpoon Cannons.",
 					"name" : "Blacksmith",
 					"warMachine" : "abyssHarpoon",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					}
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "Clams increase weekly production of Sand Crabs and Abyss Crabs by 4 per week.",
 					"name" : "Clams",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ]
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl2"
+						]
+					]
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "Clams increase weekly production of Sand Crabs and Abyss Crabs by 4 per week.",
 					"name" : "Clams",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
-				"horde2" :
-				{
+				"horde2" : {
 					"description" : "Sea Urchins increase weekly production of Seahorses and Hippocampi by 3 per week.",
 					"name" : "Sea Urchins",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1500
 					},
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl3"] ]
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
 				},
-				"horde2Upgr" :
-				{
+				"horde2Upgr" : {
 					"description" : "Sea Urchins increase weekly production of Seahorses and Magic Seahorse by 3 per week",
 					"name" : "Sea Urchins ",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1500
 					},
-					"requires" : [ "horde2" ]
+					"requires" : [
+						"horde2"
+					]
 				},
-				"special1" : 
-				{
+				"special1" : {
 					"description" : "Artifact Merchant sells artifacts to visiting heroes.",
 					"name" : "Artifact Merchant",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 10000
 					},
-					"marketModes" : ["resource-artifact", "artifact-resource"],
-					"requires" : [ "marketplace" ]
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					],
+					"requires" : [
+						"marketplace"
+					]
 				},
-				"special2" : 
-				{
+				"special2" : {
 					"description" : "Guardian Light increases morale of troops by +2 while defending town.",
-					"name" : "Guardian Light", 
-					"cost" : 
-					{
+					"name" : "Guardian Light",
+					"cost" : {
 						"mercury" : 5,
 						"gold" : 1500
 					},
 					"upgradeReplacesBonuses" : true,
-					"bonuses": [
+					"bonuses" : [
 						{
-							"type": "MORALE",
-							"val": 2
+							"type" : "MORALE",
+							"val" : 2
 						}
 					],
-					"requires" : [ "allOf", ["fort"], ["tavern"] ]
-				},	
-				"special3" : 
-				{
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"tavern"
+						]
+					]
+				},
+				"special3" : {
 					"description" : "Seaweeds Of Harmony increase spell power of visiting hero by +1.",
 					"name" : "Seaweeds of Harmony",
-					"cost" : 
-					{
+					"cost" : {
 						"crystal" : 5,
 						"gold" : 2000
 					},
@@ -326,318 +521,419 @@
 						"rewards" : [
 							{
 								"message" : "The Seaweeds of Harmony teach you new ways to focus your magical powers (+1 Power)",
-								"primary" : { "spellpower" : 1 }
+								"primary" : {
+									"spellpower" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "mageGuild1" ]
-				},	
-				"grail": {
-					"description": "Magic Whirlpool increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of every hero by +10.",
-					"name": "Magic Whirlpool",
-					"produce": { "gold": 5000 },
-					"bonuses": [
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"grail" : {
+					"description" : "Magic Whirlpool increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of every hero by +10.",
+					"name" : "Magic Whirlpool",
+					"produce" : {
+						"gold" : 5000
+					},
+					"bonuses" : [
 						{
-							"type": "WATER_WALKING",
-							"val": 0,
-							"valueType": "INDEPENDENT_MIN",
-							"propagator": "PLAYER"
+							"type" : "WATER_WALKING",
+							"val" : 0,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
 						},
 						{
-							"type": "PRIMARY_SKILL",
-							"subtype": "defence",
-							"val": 10,
-							"propagator": "PLAYER"
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "defence",
+							"val" : 10,
+							"propagator" : "PLAYER"
 						}
 					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "Spawning Pool allows you to recruit Ornias.",
 					"name" : "Spawning Pool",
-					"cost" : 
-					{
-						"gold": 500,
-                                                "wood": 5,
-                                                "ore": 5
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5,
+						"ore" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "Shell Shelter allows you to recruit Sand Crabs.",
 					"name" : "Shell Shelter",
-					"cost" : 
-					{
-			 			"gold": 1000,
-                                                "wood": 5,
-                                                "ore": 5
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "Reef Tunnel allows you to recruit Seahorses.",
 					"name" : "Reef Tunnel",
-					"cost" : 
-					{
-						"gold": 1500,
-                                                "wood": 5
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5
 					},
-					"requires" : [ "dwellingLvl2" ]
+					"requires" : [
+						"dwellingLvl2"
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "Hot Water Incubator allows you to recruit Aurelias.",
 					"name" : "Hot Water Incubator",
-					"cost" : 
-					{
-						"gold": 2000,
-                                                "ore": 10,
-                                                "sulfur": 5
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 10,
+						"sulfur" : 5
 					},
-					"requires" : [ "allOf", ["dwellingLvl2"], ["dwellingLvl3"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "Coral Cavern allows you to recruit Octopuses.",
 					"name" : "Coral Cavern",
-					"cost" : 
-					{
-						"gold": 3000,
-                                                "wood": 10,
-                                                "gems": 5
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 10,
+						"gems" : 5
 					},
-					"requires" : [ "dwellingLvl4" ]
+					"requires" : [
+						"dwellingLvl4"
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "Yuan-Ti Palace allows you to recruit Yuan-Ti.",
 					"name" : "Yuan-Ti Palace",
-					"cost" : 
-					{
-						"gold": 5000,
-                                               "ore": 10,
-                                               "crystal": 10
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"crystal" : 10
 					},
-					"requires" : [ "allOf", ["dwellingLvl5"], ["blacksmith"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "Summoning Whirlpool allows you to recruit Sea Worms.",
 					"name" : "Summoning Whirlpool",
-					"cost" : 
-					{
-						"gold": 15000,
-                                                "ore": 15,
-                                                "wood": 15,
-                                                "gems": 20
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 15,
+						"wood" : 15,
+						"gems" : 20
 					},
-					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"dwellingLvl6"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "Upg. Spawning Pool allows you to recruit Electric Ornias.",
 					"name" : "Upg. Spawning Pool",
-					"cost" :
-					{
-						"gold": 1000,
-                                                "wood": 5 
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
 					},
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "Upg. Shell Shelter allows you to recruit Abyssal Crabs.",
 					"name" : "Upg. Shell Shelter",
-					"cost" : 
-					{
-						"gold": 1000,
-                                                "ore": 5,
-                                                "wood": 5
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5
 					},
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "Upg. Reef Tunnel allows you to recruit Magic Seahorse.",
 					"name" : "Upg. Reef Tunnel",
-					"cost" : 
-					{
-						"gold": 1500,
-                                                 "wood": 10
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 10
 					},
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "Upg. Hot Water Incubator allows you to recruit Storms Aurelias.",
 					"name" : "Upg. Hot Water Incubator",
-					"cost" : 
-					{
-						"sulfur": 5,
-                                                "gold": 2000,
-                                                "ore": 5
+					"cost" : {
+						"sulfur" : 5,
+						"gold" : 2000,
+						"ore" : 5
 					},
-
 
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "Upg. Coral Cavern allows you to recruit Ferocious Octopuses.",
 					"name" : "Upg. Coral Cavern",
-					"cost" : 
-					{
-						"wood": 5,
-                                                "gold": 2500,
-                                                "gems": 5
+					"cost" : {
+						"wood" : 5,
+						"gold" : 2500,
+						"gems" : 5
 					},
 
-					"requires" : [ "dwellingUpLvl4" ],
+					"requires" : [
+						"dwellingUpLvl4"
+					],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "Upg. Yuan-Ti Palace allows you to recruit Yuan-Ti Warriors.",
 					"name" : "Upg. Yuan-Ti Palace",
-					"cost" : 
-					{
-						"gold": 3000,
-                                                "ore": 10,
-                                                "mercury": 5,
-                                                "crystal": 5
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 10,
+						"mercury" : 5,
+						"crystal" : 5
 					},
 
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "Upg. Summoning Whirlpool allows you to recruit Ocean Worms.",
 					"name" : "Upg. Summoning Whirlpool",
-					"cost" : 
-					{
-						 "ore": 15,
-                                                "wood": 15,
-                                                "gems": 20
+					"cost" : {
+						"ore" : 15,
+						"wood" : 15,
+						"gems" : 20
 					},
 
-					"requires" : [ "allOf", ["mageGuild3"], ["dwellingUpLvl5"] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild3"
+						],
+						[
+							"dwellingUpLvl5"
+						]
+					],
 					"upgrades" : "dwellingLvl7"
-				}				
+				}
 			},
 			"buildingsIcons" : "abyss/abyss-town-hall.def",
 			"creatures" : [
-				[ "tbirdvulgaris", "tbirdelectric" ],
-				[ "abyssSandCrab", "abyssAbyssalCrab" ],
-				[ "abyssSeahorse", "abyssHyppocamph" ],
-				[ "abyssDeepwaterJellyfish", "abyssAbyssalJellyfish" ],
-				[ "abyssGiantOctopus", "abyssAbyssalGiantOctopus"  ],
-				[ "abyssYuanTiWarrior", "abyssYuanTiLeader" ],
-				[ "abyssSeaWorm", "abyssOceanWorm" ]
+				[
+					"tbirdvulgaris",
+					"tbirdelectric"
+				],
+				[
+					"abyssSandCrab",
+					"abyssAbyssalCrab"
+				],
+				[
+					"abyssSeahorse",
+					"abyssHyppocamph"
+				],
+				[
+					"abyssDeepwaterJellyfish",
+					"abyssAbyssalJellyfish"
+				],
+				[
+					"abyssGiantOctopus",
+					"abyssAbyssalGiantOctopus"
+				],
+				[
+					"abyssYuanTiWarrior",
+					"abyssYuanTiLeader"
+				],
+				[
+					"abyssSeaWorm",
+					"abyssOceanWorm"
+				]
 			],
 			"guildBackground" : "TPMAGE.bmp",
 			"guildSpells" : {
-				"bless"          : 5,
-				"bloodlust"      : 0,
-				"cure"           : 5,
-				"curse"          : 0,
-				"dispel"         : 10,
-				"haste"          : 10,
-				"magicArrow"     : 25,
-				"protectAir"     : 5,
-				"protectFire"    : 0,
-				"shield"         : 5,
-				"slow"           : 15,
-				"stoneSkin"      : 2,
-				"summonBoat"     : 5,
-				"viewAir"        : 3,
-				"viewEarth"      : 3,
+				"bless" : 5,
+				"bloodlust" : 0,
+				"cure" : 5,
+				"curse" : 0,
+				"dispel" : 10,
+				"haste" : 10,
+				"magicArrow" : 25,
+				"protectAir" : 5,
+				"protectFire" : 0,
+				"shield" : 5,
+				"slow" : 15,
+				"stoneSkin" : 2,
+				"summonBoat" : 5,
+				"viewAir" : 3,
+				"viewEarth" : 3,
 
-				"disguise"       : 2,
-				"disruptingRay"  : 8,
-				"fireWall"       : 0,
-				"fortune"        : 10,
-				"iceBolt"        : 10,
-				"lightningBolt"  : 35,
-				"precision"      : 6,
-				"quicksand"      : 4,
+				"disguise" : 2,
+				"disruptingRay" : 8,
+				"fireWall" : 0,
+				"fortune" : 10,
+				"iceBolt" : 10,
+				"lightningBolt" : 35,
+				"precision" : 6,
+				"quicksand" : 4,
 				"removeObstacle" : 6,
-				"scuttleBoat"    : 4,
-				"visions"        : 2,
-				"weakness"       : 10,
-				"airShield"      : 2,
-				"antiMagic"      : 20,
-				"earthquake"     : 30,
-				"fireball"       : 2,
-				"forceField"     : 4,
-				"forgetfulness"  : 8,
-				"frostRing"      : 10,
-				"hypnotize"      : 2,
-				"landMine"       : 0,
-				"mirth"          : 2,
-				"misfortune"     : 0,
-				"protectEarth"   : 8,
-				"protectWater"   : 10,
-				"teleport"       : 2,
+				"scuttleBoat" : 4,
+				"visions" : 2,
+				"weakness" : 10,
+				"airShield" : 2,
+				"antiMagic" : 20,
+				"earthquake" : 30,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"frostRing" : 10,
+				"hypnotize" : 2,
+				"landMine" : 0,
+				"mirth" : 2,
+				"misfortune" : 0,
+				"protectEarth" : 8,
+				"protectWater" : 10,
+				"teleport" : 2,
 
-				"berserk"        : 0,
+				"berserk" : 0,
 				"chainLightning" : 10,
-				"clone"          : 5,
-				"counterstrike"  : 5,
-				"fireShield"     : 0,
-				"frenzy"         : 5,
-				"inferno"        : 0,
-				"meteorShower"   : 0,
-				"prayer"         : 5,
-				"resurrection"   : 5,
-				"slayer"         : 0,
-				"sorrow"         : 5,
-				"townPortal"     : 15,
-				"waterWalk"      : 5,
+				"clone" : 5,
+				"counterstrike" : 5,
+				"fireShield" : 0,
+				"frenzy" : 5,
+				"inferno" : 0,
+				"meteorShower" : 0,
+				"prayer" : 5,
+				"resurrection" : 5,
+				"slayer" : 0,
+				"sorrow" : 5,
+				"townPortal" : 15,
+				"waterWalk" : 5,
 
-
-				"airElemental"   : 4,
-				"dimensionDoor"  : 15,
+				"airElemental" : 4,
+				"dimensionDoor" : 15,
 				"earthElemental" : 8,
-				"fireElemental"  : 0,
-				"fly"            : 15,
-				"implosion"      : 15,
-				"magicMirror"    : 15,
-				"sacrifice"      : 0,
+				"fireElemental" : 0,
+				"fly" : 15,
+				"implosion" : 15,
+				"magicMirror" : 15,
+				"sacrifice" : 0,
 				"waterElemental" : 15
 			},
 			"guildWindow" : "abyss/town-screen/mage-guild.bmp",
 			"hallBackground" : "abyss/town-screen/hallBackground.bmp",
-			"horde" : [ 2, 1 ],
+			"horde" : [
+				2,
+				1
+			],
 			"moatAbility" : "abyssMoat",
 			"icons" : {
 				"village" : {
-					"normal" : {"small" : "abyss/icons/hall-small.bmp", "large" : "abyss/icons/hall-big.bmp" },
-					"built"  : {"small" : "abyss/icons/hall-builded-small.bmp", "large" : "abyss/icons/hall-builded-big.bmp" }
+					"normal" : {
+						"small" : "abyss/icons/hall-small.bmp",
+						"large" : "abyss/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "abyss/icons/hall-builded-small.bmp",
+						"large" : "abyss/icons/hall-builded-big.bmp"
+					}
 				},
 				"fort" : {
-					"normal" : {"small" : "abyss/icons/fort-small.bmp", "large" : "abyss/icons/fort-big.bmp" },
-					"built"  : {"small" : "abyss/icons/fort-builded-small.bmp", "large" : "abyss/icons/fort-builded-big.bmp" }
+					"normal" : {
+						"small" : "abyss/icons/fort-small.bmp",
+						"large" : "abyss/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "abyss/icons/fort-builded-small.bmp",
+						"large" : "abyss/icons/fort-builded-big.bmp"
+					}
 				}
 			},
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "abyss/map/abyss_capitol.def" },
-					"castle" : { "animation" : "abyss/map/abyss_castle.def" },
-					"citadel" : { "animation" : "abyss/map/abyss_citadel.def" },
-					"fort" : { "animation" : "abyss/map/abyss_fort.def" },
-					"village" : { "animation" : "abyss/map/abyss_village.def" }
+					"capitol" : {
+						"animation" : "abyss/map/abyss_capitol.def"
+					},
+					"castle" : {
+						"animation" : "abyss/map/abyss_castle.def"
+					},
+					"citadel" : {
+						"animation" : "abyss/map/abyss_citadel.def"
+					},
+					"fort" : {
+						"animation" : "abyss/map/abyss_fort.def"
+					},
+					"village" : {
+						"animation" : "abyss/map/abyss_village.def"
+					}
 				}
 			},
 			"mageGuild" : 5,
-			"musicTheme" : [ "music/factions/Town" ],
+			"musicTheme" : [
+				"music/factions/Town"
+			],
 			"names" : [
 				"Rivenhalls",
 				"Antillos",
@@ -662,54 +958,105 @@
 				"imagePrefix" : "abyss/siege/SgDn",
 				"towerIconSmall" : "abyss/icons/arrowtowersmall",
 				"towerIconLarge" : "abyss/icons/arrowtowerslarge",
-				"towers" :
-				{
-					"top" :
-					{
-						"battlement" : { "x" : 565, "y" : 15 },
-						"creature" : { "x" : 347, "y" : -187 },
-						"tower" : { "x" : 565, "y" : 15 }
+				"towers" : {
+					"top" : {
+						"battlement" : {
+							"x" : 565,
+							"y" : 15
+						},
+						"creature" : {
+							"x" : 347,
+							"y" : -187
+						},
+						"tower" : {
+							"x" : 565,
+							"y" : 15
+						}
 					},
-					"keep" :
-					{
-						"battlement" : { "x" : 732, "y" : 162 },
-						"creature" : { "x" : 530, "y" : -33 },
-						"tower" : { "x" : 732, "y" : 162 }
+					"keep" : {
+						"battlement" : {
+							"x" : 732,
+							"y" : 162
+						},
+						"creature" : {
+							"x" : 530,
+							"y" : -33
+						},
+						"tower" : {
+							"x" : 732,
+							"y" : 162
+						}
 					},
-					"bottom" :
-					{
-						"battlement" : { "x" : 580, "y" : 495 },
-						"creature" : { "x" : 361, "y" : 293 },
-						"tower" : { "x" : 580, "y" : 495 }
-					}					
+					"bottom" : {
+						"battlement" : {
+							"x" : 580,
+							"y" : 495
+						},
+						"creature" : {
+							"x" : 361,
+							"y" : 293
+						},
+						"tower" : {
+							"x" : 580,
+							"y" : 495
+						}
+					}
 				},
-				"gate" :
-				{
-					"arch" : { "x" : 471, "y" : 164 },
-					"gate" : { "x" : 395, "y" : 260 }
+				"gate" : {
+					"arch" : {
+						"x" : 471,
+						"y" : 164
+					},
+					"gate" : {
+						"x" : 395,
+						"y" : 260
+					}
 				},
-				"walls" :
-				{
-					"bottom" : { "x" : 559, "y" : 448 },
-					"bottomMid" : { "x" : 471, "y" : 296 },
-					"upper" : { "x" : 523, "y" : 56 },
-					"upperMid" : { "x" : 477, "y" : 180 }
+				"walls" : {
+					"bottom" : {
+						"x" : 559,
+						"y" : 448
+					},
+					"bottomMid" : {
+						"x" : 471,
+						"y" : 296
+					},
+					"upper" : {
+						"x" : 523,
+						"y" : 56
+					},
+					"upperMid" : {
+						"x" : 477,
+						"y" : 180
+					}
 				},
-				"moat" :
-				{
-					"bank" : { "x" : 283, "y" : 94 },
-					"moat" : { "x" : 283, "y" : 94 }
+				"moat" : {
+					"bank" : {
+						"x" : 283,
+						"y" : 94
+					},
+					"moat" : {
+						"x" : 283,
+						"y" : 94
+					}
 				},
-				"static" :
-				{
-					"background" : { "x" : 608, "y" : 50 },
-					"bottom" : { "x" : 522, "y" : 305 },
-					"top" : { "x" : 494, "y" : 53 }
+				"static" : {
+					"background" : {
+						"x" : 608,
+						"y" : 50
+					},
+					"bottom" : {
+						"x" : 522,
+						"y" : 305
+					},
+					"top" : {
+						"x" : 494,
+						"y" : 53
+					}
 				}
 			},
 			"structures" : {
-				"mageGuild1" :
-				{
+				"mageGuild1" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMAGE",
 					"area" : "abyss/town-screen/buildings-area/TZDMAG1",
 					"border" : "abyss/town-screen/buildings-border/TODMAG1",
@@ -717,8 +1064,7 @@
 					"y" : 192,
 					"z" : -1
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMAG2",
 					"area" : "abyss/town-screen/buildings-area/TZDMAG2",
 					"border" : "abyss/town-screen/buildings-border/TODMAG2",
@@ -726,8 +1072,7 @@
 					"y" : 158,
 					"z" : -1
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMAG3",
 					"area" : "abyss/town-screen/buildings-area/TZDMAG3",
 					"border" : "abyss/town-screen/buildings-border/TODMAG3",
@@ -735,8 +1080,7 @@
 					"y" : 82,
 					"z" : -1
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMAG4",
 					"area" : "abyss/town-screen/buildings-area/TZDMAG2",
 					"border" : "abyss/town-screen/buildings-border/TODMAG4",
@@ -744,25 +1088,22 @@
 					"y" : 75,
 					"z" : -1
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMAG5",
 					"area" : "abyss/town-screen/buildings-area/TZDMAG3",
 					"border" : "abyss/town-screen/buildings-border/TODMAG5",
 					"x" : 509,
 					"y" : 45,
 					"z" : -1
-				},				
-				"tavern" :
-				{
+				},
+				"tavern" : {
 					"animation" : "abyss/town-screen/buildings/TBDNTVRN",
 					"area" : "abyss/town-screen/buildings-area/TZDTAV",
 					"border" : "abyss/town-screen/buildings-border/TODTAV",
 					"x" : 289,
 					"y" : 157
 				},
-				"fort" :
-				{
+				"fort" : {
 					"animation" : "abyss/town-screen/buildings/TBDNCSTL",
 					"area" : "abyss/town-screen/buildings-area/TZDCAS1",
 					"border" : "abyss/town-screen/buildings-border/TODCAS1",
@@ -770,8 +1111,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"animation" : "abyss/town-screen/buildings/TBDNCAS2",
 					"area" : "abyss/town-screen/buildings-area/TZDCAS2",
 					"border" : "abyss/town-screen/buildings-border/TODCAS2",
@@ -779,8 +1119,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"castle" :
-				{
+				"castle" : {
 					"animation" : "abyss/town-screen/buildings/TBDNCAS3",
 					"area" : "abyss/town-screen/buildings-area/TZDCAS3",
 					"border" : "abyss/town-screen/buildings-border/TODCAS3",
@@ -788,32 +1127,28 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHALL",
 					"area" : "abyss/town-screen/buildings-area/TZDHALL1",
 					"border" : "abyss/town-screen/buildings-border/TODHALL1",
 					"x" : 0,
 					"y" : 185
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHAL2",
 					"area" : "abyss/town-screen/buildings-area/TZDHALL2",
 					"border" : "abyss/town-screen/buildings-border/TODHALL2",
 					"x" : 0,
 					"y" : 185
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHAL3",
 					"area" : "abyss/town-screen/buildings-area/TZDHALL3",
 					"border" : "abyss/town-screen/buildings-border/TODHALL3",
 					"x" : 0,
 					"y" : 185
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHAL4",
 					"area" : "abyss/town-screen/buildings-area/TZDHALL4",
 					"border" : "abyss/town-screen/buildings-border/TODHALL4",
@@ -821,8 +1156,7 @@
 					"y" : 185,
 					"z" : -1
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"animation" : "abyss/town-screen/buildings/TBDNMARK",
 					"area" : "abyss/town-screen/buildings-area/TZDMARK",
 					"border" : "abyss/town-screen/buildings-border/TODMARK",
@@ -830,8 +1164,7 @@
 					"y" : 207,
 					"z" : -2
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"animation" : "abyss/town-screen/buildings/TBDNSILO",
 					"area" : "abyss/town-screen/buildings-area/TZDSILO",
 					"border" : "abyss/town-screen/buildings-border/TODSILO",
@@ -839,116 +1172,103 @@
 					"y" : 243,
 					"z" : 1
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"animation" : "abyss/town-screen/buildings/TBDNBLAK",
 					"area" : "abyss/town-screen/buildings-area/TZDSMITH",
 					"border" : "abyss/town-screen/buildings-border/TODSMITH",
 					"x" : 387,
-					"y" : 203, 
+					"y" : 203,
 					"z" : 3
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHRD1.def",
 					"area" : "abyss/town-screen/buildings-area/TZDTR1HA.bmp",
 					"border" : "abyss/town-screen/buildings-border/TODTR1HA.bmp",
-					"x" : 138,   
-					"y" : 113, 
+					"x" : 138,
+					"y" : 113,
 					"z" : 2
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHRD1.def",
 					"area" : "abyss/town-screen/buildings-area/TZDTR1HA.bmp",
 					"border" : "abyss/town-screen/buildings-border/TODTR1HA.bmp",
-					"x" : 138,   
-					"y" : 113, 
+					"x" : 138,
+					"y" : 113,
 					"z" : 2
 				},
-				"horde2" :
-				{
+				"horde2" : {
 					"animation" : "abyss/town-screen/buildings/TODTR2HA.def",
 					"area" : "abyss/town-screen/buildings-area/TZDTR2HA.bmp",
 					"border" : "abyss/town-screen/buildings-border/TODTR2HA.bmp",
-					"x" : 192,   
-					"y" : 180, 
+					"x" : 192,
+					"y" : 180,
 					"z" : 0
 				},
-				"horde2Upgr" :
-				{
+				"horde2Upgr" : {
 					"animation" : "abyss/town-screen/buildings/TODTR2HA.def",
 					"area" : "abyss/town-screen/buildings-area/TZDTR2HA.bmp",
 					"border" : "abyss/town-screen/buildings-border/TODTR2HA.bmp",
-					"x" : 192,   
-					"y" : 180, 
+					"x" : 192,
+					"y" : 180,
 					"z" : 0
 				},
-				"special1" : 
-				{
+				"special1" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHRD2",
 					"area" : "abyss/town-screen/buildings-area/TZDNHRD2",
 					"border" : "abyss/town-screen/buildings-border/TBDNHRD2",
-					"x" : 216,   
-					"y" : 282, 
+					"x" : 216,
+					"y" : 282,
 					"z" : 2
 				},
-				"special2" : 
-				{
+				"special2" : {
 					"animation" : "abyss/town-screen/buildings/TBDNEXT1",
 					"area" : "abyss/town-screen/buildings-area/TZDPORTA",
 					"border" : "abyss/town-screen/buildings-border/TODPORTA",
-					"x" : 0, 
-					"y" : 0, 
+					"x" : 0,
+					"y" : 0,
 					"z" : -4
-				},		
-				"special3" : 
-				{
+				},
+				"special3" : {
 					"animation" : "abyss/town-screen/buildings/TBDNEXT2",
 					"area" : "abyss/town-screen/buildings-area/TZDACAD",
 					"border" : "abyss/town-screen/buildings-border/TODACAD",
-					"x" : 257, 
+					"x" : 257,
 					"y" : 78,
 					"z" : -3
-				},	
-				"grail" :
-				{
+				},
+				"grail" : {
 					"animation" : "abyss/town-screen/buildings/TBDNHOLY",
 					"area" : "abyss/town-screen/buildings-area/TZDHOLY",
 					"border" : "abyss/town-screen/buildings-border/TODHOLY",
-					"x" : 438, 
-					"y" : 219,  
+					"x" : 438,
+					"y" : 219,
 					"z" : 1
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_0",
 					"area" : "abyss/town-screen/buildings-area/TZDHAR1",
 					"border" : "abyss/town-screen/buildings-border/TODTRG1A",
-					"x" : 675, 
-					"y" : 91,  
+					"x" : 675,
+					"y" : 91,
 					"z" : 1
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_1",
 					"area" : "abyss/town-screen/buildings-area/TZDTRG1A",
 					"border" : "abyss/town-screen/buildings-border/TODMED1",
-					"x" : 70,   
-					"y" : 54, 
+					"x" : 70,
+					"y" : 54,
 					"z" : 2
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_2",
 					"area" : "abyss/town-screen/buildings-area/TZDMIN1",
 					"border" : "abyss/town-screen/buildings-border/TODHAR1",
-					"x" : 190, 
-					"y" : 208, 
+					"x" : 190,
+					"y" : 208,
 					"z" : 1
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_3",
 					"area" : "abyss/town-screen/buildings-area/TZDMED1",
 					"border" : "abyss/town-screen/buildings-border/TODBEH1A",
@@ -956,62 +1276,55 @@
 					"y" : 210,
 					"z" : 2
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_4",
 					"area" : "abyss/town-screen/buildings-area/TZDBEH1A",
 					"border" : "abyss/town-screen/buildings-border/TODMIN1",
-					"x" : 440, 
-					"y" : 0, 
+					"x" : 440,
+					"y" : 0,
 					"z" : 1
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_5",
 					"area" : "abyss/town-screen/buildings-area/TZDMAN1",
 					"border" : "abyss/town-screen/buildings-border/TODMAN1",
-					"x" : 174, 
-					"y" : 31, 
+					"x" : 174,
+					"y" : 31,
 					"z" : -1
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"animation" : "abyss/town-screen/buildings/TBDNDW_6",
 					"area" : "abyss/town-screen/buildings-area/TZDDRA1A",
 					"border" : "abyss/town-screen/buildings-border/TODDRA1A",
-					"x" : 620, 
-					"y" : 0,   
+					"x" : 620,
+					"y" : 0,
 					"z" : -1
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_0",
 					"area" : "abyss/town-screen/buildings-area/TZDHAR2",
 					"border" : "abyss/town-screen/buildings-border/TODTRG2A",
-					"x" : 675, 
-					"y" : 91,  
+					"x" : 675,
+					"y" : 91,
 					"z" : 1
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_1",
 					"area" : "abyss/town-screen/buildings-area/TZDTRG2A",
 					"border" : "abyss/town-screen/buildings-border/TODMED2",
-					"x" : 67,   
-					"y" : 31, 
+					"x" : 67,
+					"y" : 31,
 					"z" : 2
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_2",
 					"area" : "abyss/town-screen/buildings-area/TZDMIN2",
 					"border" : "abyss/town-screen/buildings-border/TODHAR2",
-					"x" : 190, 
-					"y" : 208, 
+					"x" : 190,
+					"y" : 208,
 					"z" : 1
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_3",
 					"area" : "abyss/town-screen/buildings-area/TZDMED2",
 					"border" : "abyss/town-screen/buildings-border/TODBEH2A",
@@ -1019,64 +1332,114 @@
 					"y" : 210,
 					"z" : 2
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_4",
 					"area" : "abyss/town-screen/buildings-area/TZDBEH2A",
 					"border" : "abyss/town-screen/buildings-border/TODMIN2",
-					"x" : 440, 
-					"y" : 0, 
+					"x" : 440,
+					"y" : 0,
 					"z" : 1
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_5",
 					"area" : "abyss/town-screen/buildings-area/TZDMAN2",
 					"border" : "abyss/town-screen/buildings-border/TODMAN2",
-					"x" : 174, 
-					"y" : 31, 
+					"x" : 174,
+					"y" : 31,
 					"z" : -1
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"animation" : "abyss/town-screen/buildings/TBDNUP_6",
 					"area" : "abyss/town-screen/buildings-area/TZDDRA2A",
 					"border" : "abyss/town-screen/buildings-border/TODDRA2A",
-					"x" : 620, 
-					"y" : 0,   
+					"x" : 620,
+					"y" : 0,
 					"z" : -1
 				}
 			},
-		"tavernVideo" : "TAVERN.BIK",
-		"townBackground" : "abyss/town-screen/background.bmp",
-		"hallSlots" : [
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "abyss/town-screen/background.bmp",
+			"hallSlots" : [
 				[
-					[ "villageHall", "townHall", "cityHall", "capitol" ],
-					[ "fort", "citadel", "castle" ],
-					[ "tavern" ],
-					[ "blacksmith" ]
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
 				],
 				[
-					[ "marketplace", "resourceSilo" ],
-					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "special1" ]
-				],
-				[ 
-					
-					[ "special2", "special3" ],
-			    		[ "horde1", "horde1Upgr" ],
-					[ "horde2", "horde2Upgr" ]
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special1"
+					]
 				],
 				[
-					[ "dwellingLvl1", "dwellingUpLvl1" ],
-					[ "dwellingLvl2", "dwellingUpLvl2" ],
-					[ "dwellingLvl3", "dwellingUpLvl3" ],
-					[ "dwellingLvl4", "dwellingUpLvl4" ]
+					[
+						"special2",
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					]
 				],
 				[
-					[ "dwellingLvl5", "dwellingUpLvl5" ],
-					[ "dwellingLvl6", "dwellingUpLvl6" ],
-					[ "dwellingLvl7", "dwellingUpLvl7" ]
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
 				]
 			]
 		}

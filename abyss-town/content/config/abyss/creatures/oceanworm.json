@@ -1,134 +1,183 @@
 {
-	"abyssOceanWorm":
-	{
-		"name" :
-		{
+	"abyssOceanWorm" : {
+		"name" : {
 			"plural" : "Ocean Worms",
 			"singular" : "Ocean Worm"
 		},
-		"faction" : "abyss",		
-		"advMapAmount" :
-		{
-			 "min" : 3,
-			 "max" : 8
+		"faction" : "abyss",
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
 		},
 		"level" : 7,
 		"attack" : 24,
 		"defense" : 24,
-		"damage" :
-		{
-			 "min" : 35,
-			 "max" : 50
+		"damage" : {
+			"min" : 35,
+			"max" : 50
 		},
 		"growth" : 1,
 		"hitPoints" : 250,
 		"speed" : 13,
 		"fightValue" : 6139,
 		"aiValue" : 7878,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 4200,
-			"gems": 2
+			"gems" : 2
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/OceanWorm.def",
 			"map" : "abyss/map/creatures/AVWOceanWorm.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/OceanWorm.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/OceanWorm.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/wormattk.wav",
-			"defend": "abyss/wormdfnd.wav",
-			"killed": "abyss/wormkill.wav",
-			"move": "abyss/wormmove.wav",
-			"wince": "abyss/wormwnce.wav",
-                        "startMoving": "abyss/wormext1.wav",
-			"endMoving": "abyss/wormext2.wav"
-                },
-		"abilities" :
-		{
+		"sound" : {
+			"attack" : "abyss/wormattk.wav",
+			"defend" : "abyss/wormdfnd.wav",
+			"killed" : "abyss/wormkill.wav",
+			"move" : "abyss/wormmove.wav",
+			"wince" : "abyss/wormwnce.wav",
+			"startMoving" : "abyss/wormext1.wav",
+			"endMoving" : "abyss/wormext2.wav"
+		},
+		"abilities" : {
 			"basicSlayer" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"flying":
-			{
-				"type":"FLYING",
-				"subtype": "movementTeleporting"
-                       },
-			"waterImmunity":
-			{
-				"type":"NEGATIVE_EFFECTS_IMMUNITY",
-				"subtype": "water",
-				"description" : "{Negative water spells immunity}\nUnit is immune to all negative water spells",
-				"icon" : "abyss/icons/bonuses/e_spwater.png"					
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"binds" :
-			{
+			"waterImmunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "water",
+				"description" : "{Negative water spells immunity}\nUnit is immune to all negative water spells",
+				"icon" : "abyss/icons/bonuses/e_spwater.png"
+			},
+			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
 				"val" : 65,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 5, 5, 5, 5]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					5,
+					5,
+					5,
+					5
+				]
 			}
 		]
 	}

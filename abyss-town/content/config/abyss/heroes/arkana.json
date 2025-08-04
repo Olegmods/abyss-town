@@ -1,34 +1,40 @@
 {
-	"arkana" : 
-	{
+	"arkana" : {
 		"class" : "ichthyander",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Arkana",
 			"biography" : "Arkana were born an undine. At young age she was enslaved by Yuan-Ti. But her natural talents impressed her master, so she was freed and at the age of twelve she was taken to an Abyssal Temple, where she learned magic.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Scouting skill.",
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Arkana/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Arkana/spec-large.bmp",
 			"large" : "abyss/heroes/Arkana/portrait-large.bmp",
 			"small" : "abyss/heroes/Arkana/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -40,6 +46,6 @@
 		],
 		"specialty" : {
 			"secondary" : "scouting"
-		}			
+		}
 	}
 }

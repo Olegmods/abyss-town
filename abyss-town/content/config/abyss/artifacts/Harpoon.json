@@ -1,24 +1,21 @@
 {
-	"abyssHarpoon":
-        {
-	"type" : ["HERO"],
-	"warMachine":"abyssHarpoon",
-        "class": "SPECIAL",
-        "value": 3500,
-        "slot":"MACH1",
-        "text":
-		{
-			"name": "Harpoon Cannon",
-			"description": "{Harpoon Cannon}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
-			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+	"abyssHarpoon" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "abyssHarpoon",
+		"class" : "SPECIAL",
+		"value" : 3500,
+		"slot" : "MACH1",
+		"text" : {
+			"name" : "Harpoon Cannon",
+			"description" : "{Harpoon Cannon}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
+			"event" : "The universal war machine mortira allows you to attack the walls of fortified enemy units."
 		},
-		"graphics":
-		{
-			"image": "abyss/iconsSmall/creatures/artifacts/harpoon.bmp",
-			"map"  :   "abyss/map/artifacts/avcnbksm.def",
+		"graphics" : {
+			"image" : "abyss/iconsSmall/creatures/artifacts/harpoon.bmp",
+			"map" : "abyss/map/artifacts/avcnbksm.def",
 			"scenarioBonus" : "abyss/icons/bonuses/blank.png"
 		}
 	}
 }
-
-

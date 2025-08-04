@@ -1,39 +1,43 @@
 {
-	"abyssKarnTi" : 
-	{
-
+	"abyssKarnTi" : {
 		"class" : "abyssalShaman",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Karn-Ti",
 			"biography" : "When human mages first contacted Abyss towns, Karn-Ti was one of first scholars to study spellcraft. Now he is most respected Merrow in the deep oceans due to his foreign contacts and unique insight.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Karn-Ti/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Karn-Ti/spec-large.bmp",
 			"large" : "abyss/heroes/Karn-Ti/portrait-large.bmp",
 			"small" : "abyss/heroes/Karn-Ti/portrait-small.bmp"
 		},
-                "spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -45,6 +49,6 @@
 		],
 		"specialty" : {
 			"secondary" : "sorcery"
-		}					
+		}
 	}
 }

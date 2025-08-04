@@ -1,45 +1,37 @@
 {
-	"abyssHarpoon":
-	{
-		"name" :
-		{
+	"abyssHarpoon" : {
+		"name" : {
 			"plural" : "Harpoon Cannons",
 			"singular" : "Harpoon Cannon"
 		},
 		"faction" : "abyss",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 20,
-             "cost": 
-            {
-              "gold": 2500
-            },
-		"damage" :
-		{
+		"cost" : {
+			"gold" : 2500
+		},
+		"damage" : {
 			"max" : 15,
 			"min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/harpoon.def",
 			"iconLarge" : "abyss/iconsBig/creatures/harpoon.png",
 			"iconSmall" : "abyss/iconsSmall/creatures/harpoon.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "abyss/battle/creatures/projectile/harp.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -63,
 					"middleX" : 62,
@@ -47,79 +39,135 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-        "shots" : 24,
+		"shots" : 24,
 		"speed" : 0,
-		"sound" :
-		{
-			"killed": "BALLKILL.wav",
-			"shoot": "BALLSHOT.wav",
-			"wince": "BALLWNCE.wav"
-		},		
-		"abilities" :
-		{
-        		"shooter" :
-			{
+		"sound" : {
+			"killed" : "BALLKILL.wav",
+			"shoot" : "BALLSHOT.wav",
+			"wince" : "BALLWNCE.wav"
+		},
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		      "paralize" :
-			{
+			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "paralyze",
 				"val" : 20
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

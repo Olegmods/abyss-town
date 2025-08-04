@@ -1,112 +1,150 @@
 {
-	"abyssLobster":
-	{
-		"name" :
-		{
+	"abyssLobster" : {
+		"name" : {
 			"plural" : "Lobsters",
 			"singular" : "Lobster"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"abyssLobsterup"
 		],
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"doubleWide" : true,
-        	"faction" : "abyss",
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 20
+		"faction" : "abyss",
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
 		},
 		"level" : 4,
 		"attack" : 8,
 		"defense" : 13,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 8
+		"damage" : {
+			"min" : 6,
+			"max" : 8
 		},
 		"growth" : 4,
 		"hitPoints" : 40,
 		"speed" : 4,
 		"fightValue" : 422,
 		"aiValue" : 417,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/lobster.def",
 			"map" : "abyss/map/creatures/AVWlobster.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/lobster.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/lobster.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/crabattk.wav",
-			"defend": "abyss/crabdfnd.wav",
-			"killed": "abyss/crabkill.wav",
-			"move": "abyss/crabmove.wav",
-			"wince": "abyss/crabwnce.wav"
-                },
-		"abilities":
-		{
-			"generalDamageReduction" :
-			{
+		"sound" : {
+			"attack" : "abyss/crabattk.wav",
+			"defend" : "abyss/crabdfnd.wav",
+			"killed" : "abyss/crabkill.wav",
+			"move" : "abyss/crabmove.wav",
+			"wince" : "abyss/crabwnce.wav"
+		},
+		"abilities" : {
+			"generalDamageReduction" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 15
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

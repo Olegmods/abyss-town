@@ -1,16 +1,16 @@
 {
 	"seaweedsup" : {
 		"abilities" : {
-
-			"binds" :
-			{
+			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
 				"val" : 90,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			},
-			"defensiveStance" :
-			{
+			"defensiveStance" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 50
 			},
@@ -19,55 +19,106 @@
 				"val" : 20,
 				"addInfo" : 50,
 				"description" : "{Acid Breath}\nUnit has 50% change to deal 20% more acid damage",
-				"icon" : "abyss/icons/bonuses/e_breath.png"					
-			}		
+				"icon" : "abyss/icons/bonuses/e_breath.png"
+			}
 		},
-		"stackExperience" :
-		[	
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
-		],	
-		"advMapAmount" : {"max" : 20, "min" : 12},
+		],
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
 		"aiValue" : 486,
 		"attack" : 8,
-		"cost" : { "gold" : 250 },
-		"damage" : {"max" : 5, "min" : 3},
+		"cost" : {
+			"gold" : 250
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
 		"defense" : 7,
 		"faction" : "abyss",
 		"fightValue" : 548,
 		"graphics" : {
 			"animation" : "abyss/battle/creatures/seaweedsup",
-			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.6,
+				"idle" : 20,
+				"walk" : 1.5
+			},
 			"iconSmall" : "abyss/iconsSmall/creatures/seaweedsup.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/seaweedsup.bmp",
 			"map" : "abyss/map/creatures/Advseaweedsup",
@@ -75,9 +126,12 @@
 		},
 		"growth" : 7,
 		"hitPoints" : 20,
-                "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 3,
-		"name" : { "plural" : "Poisonous Seaweeds", "singular" : "Poisonous Seaweed" },
+		"name" : {
+			"plural" : "Poisonous Seaweeds",
+			"singular" : "Poisonous Seaweed"
+		},
 		"sound" : {
 			"attack" : "abyss/ROPatak",
 			"defend" : "abyss/ROPdefend",

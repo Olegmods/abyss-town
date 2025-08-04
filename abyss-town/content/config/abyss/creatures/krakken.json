@@ -1,35 +1,33 @@
 {
-	"abKrakken":
-	{
-		"name" :
-		{
+	"abKrakken" : {
+		"name" : {
 			"plural" : "Krakkens",
 			"singular" : "Krakken"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "abyss",
 		"aiValue" : 6377,
 		"attack" : 19,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 3000,
 			"gems" : 3
 		},
-		"damage" :
-		{
-			 "max" : 50,
-			 "min" : 30
+		"damage" : {
+			"max" : 50,
+			"min" : 30
 		},
 		"defense" : 21,
 		"fightValue" : 4990,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/Krakken",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "abyss/map/creatures/AVWKrakken.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/Krakken.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/Krakken.bmp",
@@ -39,8 +37,7 @@
 		"hitPoints" : 300,
 		"level" : 7,
 		"doubleWide" : true,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "abyss/DRAatak",
 			"defend" : "abyss/DRAdefend",
 			"killed" : "abyss/DRAkill",
@@ -48,75 +45,120 @@
 			"wince" : "abyss/DRAwnce"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"reduceDefence" :
-			{
+		"abilities" : {
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 50
 			},
-			"dragonNature" :
-			{
+			"dragonNature" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"KING3" :
-			{
-				"type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE"
+			"KING3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"waterImmunity":
-			{
+			"waterImmunity" : {
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-				"subtype": "water",
+				"subtype" : "water",
 				"description" : "{Negative water spells immunity}\nUnit is immune to all negative water spells",
-				"icon" : "abyss/icons/bonuses/e_spwater.png"				
+				"icon" : "abyss/icons/bonuses/e_spwater.png"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

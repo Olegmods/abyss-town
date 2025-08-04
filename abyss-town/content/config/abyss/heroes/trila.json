@@ -1,31 +1,38 @@
 {
-	"trila" : 
-	{
+	"trila" : {
 		"class" : "ichthyander",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Trila",
 			"biography" : "For someone living underwater, Trila has a strange obsession with armor. She has found a special alloy that never rusts which she dresses her subjects in.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Secondary skill bonus: Offence",
 				"name" : "Offence"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Trila/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Trila/spec-large.bmp",
 			"large" : "abyss/heroes/Trila/portrait-large.bmp",
 			"small" : "abyss/heroes/Trila/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
@@ -39,6 +46,6 @@
 		],
 		"specialty" : {
 			"secondary" : "offence"
-		}		
+		}
 	}
 }

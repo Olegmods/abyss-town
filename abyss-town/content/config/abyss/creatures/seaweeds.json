@@ -1,67 +1,120 @@
 {
 	"seaweeds" : {
 		"abilities" : {
-
-			"binds" :
-			{
+			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
-				"addInfo" : [0,2],
+				"addInfo" : [
+					0,
+					2
+				],
 				"val" : 90
 			},
-			"defensiveStance" :
-			{
+			"defensiveStance" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 50
 			}
 		},
-		"stackExperience" :
-		[	
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"upgrades": ["seaweedsup"],		
-		"advMapAmount" : {"max" : 25, "min" : 12},
+		"upgrades" : [
+			"seaweedsup"
+		],
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
+		},
 		"aiValue" : 482,
 		"attack" : 7,
-		"cost" : { "gold" : 200 },
-		"damage" : {"max" : 5, "min" : 3},
+		"cost" : {
+			"gold" : 200
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
 		"defense" : 7,
 		"faction" : "abyss",
 		"fightValue" : 605,
 		"graphics" : {
 			"animation" : "abyss/battle/creatures/seaweeds",
-			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.6,
+				"idle" : 20,
+				"walk" : 1.5
+			},
 			"iconSmall" : "abyss/iconsSmall/creatures/seaweeds.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/seaweeds.bmp",
 			"map" : "abyss/map/creatures/Advseaweeds",
@@ -69,9 +122,12 @@
 		},
 		"growth" : 7,
 		"hitPoints" : 18,
-                "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 3,
-		"name" : { "plural" : "Seaweeds", "singular" : "Seaweed" },
+		"name" : {
+			"plural" : "Seaweeds",
+			"singular" : "Seaweed"
+		},
 		"sound" : {
 			"attack" : "abyss/ROPatak",
 			"defend" : "abyss/ROPdefend",

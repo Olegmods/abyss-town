@@ -1,25 +1,21 @@
 {
-	"goldenHyppocamph":
-	{
-		"name" :
-		{
+	"goldenHyppocamph" : {
+		"name" : {
 			"plural" : "Golden Seahorse",
 			"singular" : "Golden Seahorses"
 		},
 		"faction" : "abyss",
 		"special" : true,
-		"advMapAmount" :
-		{
-			 "min" : 12,
-			 "max" : 18
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 18
 		},
 		"level" : 3,
 		"attack" : 9,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 4,
-			 "max" : 7
+		"damage" : {
+			"min" : 4,
+			"max" : 7
 		},
 		"growth" : 7,
 		"hitPoints" : 25,
@@ -27,98 +23,132 @@
 		"doubleWide" : true,
 		"fightValue" : 421,
 		"aiValue" : 430,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 320
 		},
 		"horde" : 3,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/GiantGoldSeahorse.def",
 			"map" : "abyss/map/creatures/AVWGiantGoldSeahorse.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/GiantGoldSeahorseS.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/GiantGoldSeahorseB.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/hyppattk.wav",
-			"defend": "abyss/hyppdfnd.wav",
-			"killed": "abyss/hyppkill.wav",
-			"move": "abyss/hyppmove.wav",
-			"wince": "abyss/hyppwnce.wav"
-        },
-		"abilities" :
-		{
-			"flying":
-			{
-				"type":"FLYING",
+		"sound" : {
+			"attack" : "abyss/hyppattk.wav",
+			"defend" : "abyss/hyppdfnd.wav",
+			"killed" : "abyss/hyppkill.wav",
+			"move" : "abyss/hyppmove.wav",
+			"wince" : "abyss/hyppwnce.wav"
+		},
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING",
 				"subtype" : "movementFlying"
-            },
-			"lucky":
-			{
-				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX",
+			},
+			"lucky" : {
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
 				"description" : "{Positive Luck}\nUnit luck cannot be decreased below +1",
-				"icon" : "abyss/icons/bonuses/positiveluck.png"					
+				"icon" : "abyss/icons/bonuses/positiveluck.png"
 			},
-			 "spellAfterAttack" :
-			{
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "misfortune",
-                "val" : 50,
-                "addInfo": [2,2]
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "misfortune",
+				"val" : 50,
+				"addInfo" : [
+					2,
+					2
+				]
 			},
-			"seaMovement" :
-			{
+			"seaMovement" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 300,
 				"valueType" : "ADDITIVE_VALUE",
 				"propagator" : "HERO",
 				"description" : "{Navigator}\nInreases hero sea movement points by 300",
-				"icon" : "abyss/icons/bonuses/e_whirl.png"				
+				"icon" : "abyss/icons/bonuses/e_whirl.png"
 			}
-        },
-		"stackExperience" :
- 
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

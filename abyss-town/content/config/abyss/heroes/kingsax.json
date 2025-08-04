@@ -1,35 +1,41 @@
 {
-	"kingsax" : 
-	{
+	"kingsax" : {
 		"class" : "abyssalShaman",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Kingsax",
 			"biography" : "Little is known about Kingsax. He prefers remaining in the shadows, even hiding in a distance from his own battles, as the safety makes him think clearer.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Kingsax/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Kingsax/spec-large.bmp",
 			"large" : "abyss/heroes/Kingsax/portrait-large.bmp",
 			"small" : "abyss/heroes/Kingsax/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
@@ -43,6 +49,6 @@
 		],
 		"specialty" : {
 			"secondary" : "intelligence"
-		}		
+		}
 	}
 }

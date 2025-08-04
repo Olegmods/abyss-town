@@ -1,131 +1,166 @@
 {
-	"tbirdbloody":
-	{
-		"name" :
-		{
+	"tbirdbloody" : {
+		"name" : {
 			"plural" : "Bloody Ornias",
 			"singular" : "Bloody Ornia"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"tbirdglowing"
 		],
 		"faction" : "abyss",
 		"special" : false,
-                "advMapAmount" :
-		{
-			 "min" : 20,
-			 "max" : 30
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
 		},
 		"level" : 1,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 2,
-			 "max" : 3
+		"damage" : {
+			"min" : 2,
+			"max" : 3
 		},
 		"growth" : 14,
 		"hitPoints" : 8,
 		"speed" : 8,
 		"fightValue" : 147,
 		"aiValue" : 133,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 85
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "abyss/battle/creatures/Bloody.def",
 			"map" : "abyss/map/creatures/Bloody.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/Bloody.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/Bloody.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "abyss/fellattk.wav",
-			"defend": "abyss/felldfnd.wav",
-			"killed": "abyss/fellkill.wav",
-			"move": "abyss/fellmove.wav",
-			"wince": "abyss/fellwnce.wav"
-                },
-		"abilities" :
-		{
-		    "spellAfterAttack" :
-			{
-                                 "type": "SPELL_AFTER_ATTACK",
-                                 "subtype": "lightningBolt",
-                                 "val" : 10,
-                                 "addInfo": [1, 2]
+		"sound" : {
+			"attack" : "abyss/fellattk.wav",
+			"defend" : "abyss/felldfnd.wav",
+			"killed" : "abyss/fellkill.wav",
+			"move" : "abyss/fellmove.wav",
+			"wince" : "abyss/fellwnce.wav"
+		},
+		"abilities" : {
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "lightningBolt",
+				"val" : 10,
+				"addInfo" : [
+					1,
+					2
+				]
 			},
-			"lightningBoltPOwer" :
-			{
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype":"lightningBolt",
+			"lightningBoltPOwer" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "lightningBolt",
 				"val" : 10
 			},
-			"flying" :
-			{
-				"type": "FLYING"
+			"flying" : {
+				"type" : "FLYING"
 			},
-			"drainsLife" : 
-			{
+			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 10
-			}				
+			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}
 }
-
-

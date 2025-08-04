@@ -1,38 +1,43 @@
 {
-	"verna" : 
-	{
+	"verna" : {
 		"class" : "abyssalShaman",
 		"female" : true,
-"texts" :
-		{
+		"texts" : {
 			"name" : "Verna",
 			"biography" : "Verna lived an ordinary life until she came across a Bloody Ornias. From that day, she has searched the oceans for these mysterious beings, finding their preservation her reason to live.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Can upgrade Electric Ornias to Bloody Ornias",
 				"tooltip" : "Creature Bonus: Bloody Ornias",
 				"name" : "Bloody Ornias"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Verna/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Verna/spec-large.bmp",
 			"large" : "abyss/heroes/Verna/portrait-large.bmp",
 			"small" : "abyss/heroes/Verna/portrait-small.bmp"
 		},
-                "spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -48,8 +53,10 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"tbirdbloody" : { "subtype" : "tbirdelectric" }
+				"tbirdbloody" : {
+					"subtype" : "tbirdelectric"
+				}
 			}
-		}		
+		}
 	}
 }

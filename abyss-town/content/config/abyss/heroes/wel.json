@@ -1,36 +1,47 @@
 {
-	"wel" : 
-	{
+	"wel" : {
 		"class" : "abyssalShaman",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Wel",
 			"biography" : "Wel was a mighty king of a small domain beneath the oceans. Seeing the deaths of countless of his subjects throughout the years, he sought magic to solve the issue of dwindling taxes. Eventually, he lost interest in ruling altogether, prefering the company of his tomes and the arcane arts, and always seek to aid those in need.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "abyss/heroes/Wel/spec-small.bmp",
 			"specialtyLarge" : "abyss/heroes/Wel/spec-large.bmp",
 			"large" : "abyss/heroes/Wel/portrait-large.bmp",
 			"small" : "abyss/heroes/Wel/portrait-small.bmp"
 		},
-               "spellbook": [ "resurrection" ],
-		"army" :
-		[
-			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
-			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
-			{ "creature" : "abyssSeahorse", "min" : 4, "max" : 6}
+		"spellbook" : [
+			"resurrection"
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "advanced" }
+		"army" : [
+			{
+				"creature" : "tbirdvulgaris",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "abyssSandCrab",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "abyssSeahorse",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
